@@ -1,0 +1,110 @@
+h2 {
+  font-family: "Castellar", sans-serif;
+  color: indianred;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: "Harrington", sans-serif;
+  color: indianred;
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: "Bell MT", sans-serif;
+  font-size: 18px;
+  color: white;
+  background: indianred;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+body {
+  color: darkslateblue;
+  background-color: #FFFFFF;
+}
+
+div {
+  color: darkslateblue;
+  background-color: #FFFFFF;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+  margin-bottom: 15px;
+  align-content: center;
+}
+
+p {
+  font-family: "Century", sans-serif;
+  text-align: justify;
+  color: white;
+  background: #406882;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+a {
+  font-family: "Century";
+  color: indianred;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: indianred;
+  text-decoration: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200;
+}
+
+.img-bordered {
+  border: 5px solid indianred;
+}
+
+#banner {
+  background-image: url("ni.jpg");
+  position: center;
+}
+
+#random-list li {
+  color: indianred;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+@media (max-width: 900px) {
+    .center {
+    width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .center {
+    width: 75%;
+  }
+}
+
+@media (max-width: 300px) {
+  .center {
+    width: 100%;
+  }
+}
